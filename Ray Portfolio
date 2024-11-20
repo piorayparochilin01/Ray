@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Virtual Assistant & Freelancer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #333;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+        }
+        nav a:hover {
+            background: #575757;
+        }
+        .container {
+            padding: 2rem;
+        }
+        .hero {
+            text-align: center;
+            padding: 2rem 0;
+        }
+        .hero h1 {
+            margin-bottom: 0.5rem;
+        }
+        .services, .portfolio, .about, .contact {
+            margin-bottom: 2rem;
+        }
+        .service-item, .portfolio-item {
+            margin: 1rem 0;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background: #333;
+            color: white;
+        }
+        .btn {
+            display: inline-block;
+            background: #4CAF50;
+            color: white;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Name</h1>
+        <p>Efficient Virtual Assistance for Your Needs</p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section class="hero">
+            <h1>Welcome!</h1>
+            <p>Hi, I'm [Your Name], a reliable virtual assistant and freelancer. Let me help you grow your business!</p>
+            <a href="#contact" class="btn">Get in Touch</a>
+        </section>
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <p>I am a professional virtual assistant with over 3 years of experience in administrative support, content creation, and project management. My mission is to help you focus on your business while I take care of the rest.</p>
+        </section>
+        <section id="services" class="services">
+            <h2>Services</h2>
+            <div class="service-item">
+                <h3>Administrative Support</h3>
+                <p>Includes email management, scheduling, and data entry.</p>
+            </div>
+            <div class="service-item">
+                <h3>Social Media Management</h3>
+                <p>Content scheduling, analytics tracking, and engagement.</p>
+            </div>
+            <div class="service-item">
+                <h3>Content Writing</h3>
+                <p>Blog posts, website copy, and marketing materials.</p>
+            </div>
+        </section>
+        <section id="portfolio" class="portfolio">
+            <h2>Portfolio</h2>
+            <div class="portfolio-item">
+                <h3>Project 1: Social Media Campaign</h3>
+                <p>Managed a successful social media campaign for a local business, increasing engagement by 40% in 3 months.</p>
+            </div>
+            <div class="portfolio-item">
+                <h3>Project 2: Blog Writing</h3>
+                <p>Wrote a series of engaging blog posts for a tech startup, improving organic traffic by 25%.</p>
+            </div>
+            <div class="portfolio-item">
+                <h3>Project 3: Administrative Support</h3>
+                <p>Streamlined email management and scheduling for a busy executive, saving 10 hours per week.</p>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out with any questions or to discuss your project needs.</p>
+            <form action="#" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                <button type="submit" class="btn">Send</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>© 2024 Your Name. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
